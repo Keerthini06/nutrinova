@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CalorieLens",
-    "slug": "CalorieLens",
+    "name": "NutriNova",
+    "slug": "nutrinova",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "calorielens",
+    "scheme": "nutrinova",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
@@ -20,7 +20,8 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "static",
+      "bundler": "metro",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
